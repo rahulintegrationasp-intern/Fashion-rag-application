@@ -218,3 +218,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Large data files
+data/fashion_catalog_5lakh.csv
+*.csv
+
+# macOS
+.DS_Store
+docs/.DS_Store
+
+# Node.js
+node_modules/
+frontend/node_modules/
+
+# Environment files (sensitive!)
+.env
+frontend/.env
